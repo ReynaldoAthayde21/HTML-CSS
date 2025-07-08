@@ -16,6 +16,8 @@ header{
     background-color: black;
     color: white;
     text-align: center;
+    border-radius: 15px;
+    padding-bottom: 10px;
 }
 header > h1{
     padding-top: 50px;
@@ -40,13 +42,15 @@ footer{
 }
 
 section.normal{
-    background-color: black;
-    color: white;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 
 }
 section.imagem{
-    background-color: gray;
+    background-color: rgb(0, 0, 0);
     color: white;
+    box-shadow: 10px;
+    background-attachment: fixed;
 }
 section{
     font-family: "Playwrite VN Guides",cursive;
@@ -57,4 +61,17 @@ section{
 }
 section.imagem > p{
     background-color: rgb(30, 15, 15);
+    display: inline-block;
+}
+section#img01{
+    background-image: url('imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover;
+
+
+
+}
+section#img02{
+    background-image: url('imagens/background002.jpg');
+    background-size: cover;
 }
