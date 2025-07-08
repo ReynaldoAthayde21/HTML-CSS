@@ -1,10 +1,13 @@
 @charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Sunuwar&family=Oswald:wght@200..700&family=Playwrite+VN+Guides&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 * {
     margin: 0px;
     padding: 0px;
 
 }
 html, body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
    min-height: 100vh;
    background-color: darkgray;
 
@@ -46,6 +49,7 @@ section.imagem{
     color: white;
 }
 section{
+    font-family: "Playwrite VN Guides",cursive;
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
