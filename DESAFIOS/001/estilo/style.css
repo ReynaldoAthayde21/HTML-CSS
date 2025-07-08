@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Sunuwar&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+    font-family: 'Android';
+    src: url('../fontes/idroid.otf') format('opentype');
+}
+
+
+/*
+#EDAA2F
+#EDD82F
+#EDC12F
+#F08A23
+*/
+:root{
+    --cor0:#edaa2f;
+    --cor1:#EDD83F;
+    --cor2:#EDC12F;
+    --cor2:#F08A23;
+
+    --font-android: 'Android','cursive';
+
+}
+body{
+  
+    background-color: #EDAA2F;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav > a{
+    color: rgb(190, 184, 20);
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: .6s;;
+}
+nav > a:hover{
+    background-color: var(--cor0);
+    color: rgb(230, 239, 239);
+    border-radius: 10px;
+}
+nav{
+    background-color: white;
+    font-family: var(--font-android);
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-left: -10px;
+   
+    
+    min-width: 100%;
+    
+}
+header{
+    background-color: #ffffff;
+    min-height: 150px;
+    text-align: center;
+    box-shadow: 0px 0px 10px #705832;
+    border-radius: 10px;
+    
+}
+header > h1{
+    color: #bda80e;
+    font-family: var(--font-android);
+}
+main{
+    background-color: rgb(255, 255, 255);
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    box-shadow: 0px 0px 20px black;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-bottom: 10px;
+}
+main img{
+    width: 100%;
+}
+main  h2{
+
+}
+footer{
+    background-color: var(--cor2);
+    color: #ffffff;
+  
+}
+footer strong:hover{
+    background-color: white;
+    color: var(--cor0);
+    transition-duration: 2s;
+    border-radius: 10px;
+    padding: 15px;
+}
+aside{
+    background-color: rgb(236, 219, 188);
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+div.video{
+    background-color: #EDAA2F;
+    margin-bottom: 30px;
+    margin: 0 -20px;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 59%;
+}
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    f
+    height: 90%;
+}
+
+a.externo::after{
+    content: '\1F517';
+}
+aside > ul{
+    list-style-type: '';
+    list-style-position: inside;
+    columns: 2;
+
+}
+aside > h1{
+    background-color: white;
+}

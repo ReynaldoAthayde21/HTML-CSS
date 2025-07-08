@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       boyd{
+        font-family: Arial, Helvetica, sans-serif;
+       } 
+       a{
+        color: chocolate;
+        text-decoration: none;
+        font-weight: bold;
+       }
+       a:visited{
+        color: aqua;
+       }
+       a:hover{
+        color: yellowgreen;
+       }
+       a:active{
+        color: violet;
+       }
+       .especiaal::after{
+        content: '[links]';
+        color: darkcyan;
+        font-weight: normal;
+        text-decoration: none;
+       }
+       .especiaal:hover{
+        background-color: brown;
+       }
+       .especiaal{
+        color: rgb(244, 1, 244);
+       }
+    </style>
+</head>
+<body>
+    <h1>personalizando links</h1>
+    <ul>
+        <li><a href="https:://gustavoguanabara.github.io" target="_blank">github</a></li>
+        <li><a href="https://www.youtube.com/" target="_blank" class="especiaal">youtube</a></li>
+        <li><a href="https://www.youtube.com/c/FutPar%C3%B3dias">site</a></li>
+    </ul>
+</body>
+</html>
